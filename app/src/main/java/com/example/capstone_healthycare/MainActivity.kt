@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this@MainActivity, BMI::class.java)
                 startActivity(intent)
             }
+            R.id.cvWater -> {
+                val intent = Intent(this@MainActivity, Water::class.java)
+                startActivity(intent)
+            }
         }
     }
 
