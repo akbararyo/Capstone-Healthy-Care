@@ -19,13 +19,4 @@ interface RecordsBMIDao {
 
     @Query("SELECT * FROM bmi_table ORDER BY id ASC")
     fun readAllDataBMI(): LiveData<List<RecordsBMI>>
-
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun addWater(water: RecordsWater)
-
-    @Query("DELETE FROM water_table")
-    suspend fun deleteAllWater()
-
-    @Query("SELECT * FROM water_table ORDER BY id ASC")
-    fun readAllDataWater(): LiveData<List<RecordsWater>>
 }

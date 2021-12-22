@@ -30,20 +30,5 @@ abstract class BMIDatabase: RoomDatabase(){
                 return instance
             }
         }
-        fun getDatabaseWater(context: Context): BMIDatabase{
-            val tempInstance = INSTANCE
-            if(tempInstance != null){
-                return tempInstance
-            }
-            synchronized(this){
-                val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    BMIDatabase::class.java,
-                    "water_database"
-                ).build()
-                INSTANCE = instance
-                return instance
-            }
-        }
     }
 }
