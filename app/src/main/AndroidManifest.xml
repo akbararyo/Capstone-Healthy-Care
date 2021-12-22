@@ -11,9 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneHealthyCare">
         <activity
-            android:name=".bmi.UpdateBMI"
-            android:exported="false" />
-        <activity
             android:name=".CalculatorBMI"
             android:exported="false"
             android:screenOrientation="portrait"

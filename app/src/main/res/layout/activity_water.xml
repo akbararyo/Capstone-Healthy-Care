@@ -38,6 +38,7 @@
         app:layout_constraintTop_toTopOf="@+id/btnBack" />
 
     <TextView
+        android:id="@+id/tvWaterAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
@@ -47,5 +48,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_circle"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/tvWaterAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvWaterAmount"
+        app:layout_constraintTop_toTopOf="@+id/tvWaterAmount" />
+
+    <ImageButton
+        android:id="@+id/btnDecrease"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_remove_circle_"
+        app:layout_constraintBottom_toBottomOf="@+id/tvWaterAmount"
+        app:layout_constraintEnd_toStartOf="@+id/tvWaterAmount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvWaterAmount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

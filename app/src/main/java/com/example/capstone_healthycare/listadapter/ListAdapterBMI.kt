@@ -1,4 +1,4 @@
-package com.example.capstone_healthycare.bmi
+package com.example.capstone_healthycare.listadapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

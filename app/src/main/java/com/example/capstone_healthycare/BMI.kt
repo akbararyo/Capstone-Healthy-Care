@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.capstone_healthycare.viewmodel.BMIViewModel
 import com.example.capstone_healthycare.databinding.ActivityBmiBinding
-import com.example.capstone_healthycare.bmi.ListAdapterBMI
+import com.example.capstone_healthycare.listadapter.ListAdapterBMI
 
 class BMI : AppCompatActivity() {
     private lateinit var binding: ActivityBmiBinding

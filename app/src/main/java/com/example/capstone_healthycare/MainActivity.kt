@@ -23,6 +23,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val moveBMIActivity: CardView = binding.cvBMI
         moveBMIActivity.setOnClickListener(this)
+
+        val moveWaterActivity: CardView = binding.cvWater
+        moveWaterActivity.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
