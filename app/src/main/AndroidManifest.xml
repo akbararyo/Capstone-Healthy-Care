@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.capstone_healthycare">
 
     <application
@@ -9,6 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneHealthyCare">
+        <activity
+            android:name=".CalculatorBMI"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".BMI"
+            android:exported="false" />
+        <activity
+            android:name=".Water"
+            android:exported="false" />
         <activity
             android:name=".FoodRecipe"
             android:exported="false" />

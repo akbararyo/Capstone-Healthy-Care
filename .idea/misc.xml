@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/height_background.xml" value="0.2351851851851852" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/ic_add.xml" value="0.20052083333333334" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2388888888888889" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2388888888888889" />
         <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/layout_bg.xml" value="0.12" />
-        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/malefemalenotfocus.xml" value="0.2351851851851852" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/drawable/plusminus.xml" value="0.20052083333333334" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_bmi.xml" value="0.22" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_calculator_bmi.xml" value="0.22" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_food_recipe.xml" value="0.21331521739130435" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_list_bmi.xml" value="0.22" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/activity_water.xml" value="0.21920289855072464" />
         <entry key="..\:/coding/Dicoding/CapstoneHealthyCare/app/src/main/res/layout/item_list_menu.xml" value="0.25311203319502074" />
       </map>
     </option>
