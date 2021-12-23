@@ -11,7 +11,7 @@ import com.example.capstone_healthycare.model.RecordsWater
 interface RecordsWaterDao {
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun addBMI(water: RecordsWater)
+    suspend fun addWater(water: RecordsWater)
 
     @Query("DELETE FROM water_table")
     suspend fun deleteAllWater()
@@ -21,4 +21,7 @@ interface RecordsWaterDao {
 
     @Query("SELECT * FROM water_table ORDER BY id ASC")
     fun readAllDataWater(): LiveData<List<RecordsWater>>
+
+    @Query("UPDATE water_table SET water = water + 1 WHERE date=:now")
+    fun incrementClick(now: String)
 }
