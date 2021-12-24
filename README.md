@@ -1,9 +1,12 @@
 # Capstone-Healthy-Care
-Capstone untuk program MSIB Dicoding
+Capstone for MSIB program - Dicoding
 
-Anggota tim capstone:
+Capstone team member:
 1. A183R7144 - Akbar Aryo Wicaksono
 2. A152R7102 - Rama Wahyu Pangestu
+
+About the app:
+This app provides 4 different features which can help users to track their body healthiness for instance BMI calculator which helps to measure how ideal one's body fat based on height and weight. the second feature is water tracker which helps to track how much water is drunk during a day. The third feature is sleep tracker to track sleeping time. The last but not least is Food recipe where a lot of food recipes are listed.
 
 **Splashscreen**
 
