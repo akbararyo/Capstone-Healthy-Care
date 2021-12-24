@@ -7,6 +7,7 @@ import android.view.View
 import androidx.cardview.widget.CardView
 import com.example.capstone_healthycare.databinding.ActivityMainBinding
 import com.example.capstone_healthycare.ui.bmi.BMI
+import com.example.capstone_healthycare.ui.sleep.Sleep
 import com.example.capstone_healthycare.ui.water.Water
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val moveWaterActivity: CardView = binding.cvWater
         moveWaterActivity.setOnClickListener(this)
+
+        val moveSleepActivity: CardView = binding.cvSleep
+        moveSleepActivity.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -39,6 +43,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.cvWater -> {
                 val intent = Intent(this@MainActivity, Water::class.java)
+                startActivity(intent)
+            }
+            R.id.cvSleep -> {
+                val intent = Intent(this@MainActivity, Sleep::class.java)
                 startActivity(intent)
             }
         }

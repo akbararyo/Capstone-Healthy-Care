@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.capstone_healthycare">
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneHealthyCare">
+        <activity
+            android:name=".ui.sleep.Sleep"
+            android:exported="false" />
         <activity
             android:name=".ui.water.StatsActivity"
             android:exported="false" />
@@ -45,11 +48,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-        <receiver android:name="com.example.capstone_healthycare.receivers.NotifierReceiver"/>
-        <receiver android:name="com.example.capstone_healthycare.receivers.BootReceiver"
+
+        <receiver android:name=".receivers.NotifierReceiver" />
+        <receiver
+            android:name=".receivers.BootReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
     </application>
