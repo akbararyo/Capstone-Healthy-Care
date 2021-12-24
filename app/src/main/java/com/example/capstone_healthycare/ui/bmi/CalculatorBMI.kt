@@ -1,4 +1,4 @@
-package com.example.capstone_healthycare
+package com.example.capstone_healthycare.ui.bmi
 
 import android.annotation.SuppressLint
 import android.graphics.Color

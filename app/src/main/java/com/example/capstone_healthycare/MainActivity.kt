@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.cardview.widget.CardView
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.capstone_healthycare.databinding.ActivityMainBinding
-import java.util.ArrayList
+import com.example.capstone_healthycare.ui.bmi.BMI
+import com.example.capstone_healthycare.ui.water.Water
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivityMainBinding

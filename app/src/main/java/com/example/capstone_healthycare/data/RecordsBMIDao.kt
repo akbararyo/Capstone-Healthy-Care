@@ -3,7 +3,6 @@ package com.example.capstone_healthycare.data
 import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.capstone_healthycare.model.RecordsBMI
-import com.example.capstone_healthycare.model.RecordsWater
 
 @Dao
 interface RecordsBMIDao {

@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneHealthyCare">
         <activity
+            android:name=".ui.water.StatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.water.InitWater"
+            android:exported="false" />
+        <activity
             android:name=".Splashscreen"
             android:exported="true">
             <intent-filter>
@@ -20,23 +26,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CalculatorBMI"
+            android:name=".ui.bmi.CalculatorBMI"
             android:exported="false"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".BMI"
+            android:name=".ui.bmi.BMI"
             android:exported="false" />
         <activity
-            android:name=".Water"
+            android:name=".ui.water.Water"
             android:exported="false" />
         <activity
             android:name=".FoodRecipe"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
