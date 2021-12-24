@@ -17,4 +17,7 @@
     <color name="dividerColor">#F5F5F5</color>
     <color name="red">#D80101</color>
     <color name="colorBlueDark">#4167B2</color>
+
+    <color name="shimmerBg">#dddddd</color>
+    <color name="colorGrey">#C6C6C6</color>
 </resources>

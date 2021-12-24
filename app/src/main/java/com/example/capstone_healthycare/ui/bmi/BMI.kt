@@ -8,7 +8,6 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.capstone_healthycare.viewmodel.BMIViewModel
 import com.example.capstone_healthycare.databinding.ActivityBmiBinding
 import com.example.capstone_healthycare.listadapter.ListAdapterBMI
 

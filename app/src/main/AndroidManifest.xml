@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneHealthyCare">
+        <activity
+            android:name=".ui.food.FilterRecipesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.food.FoodDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.sleep.Sleep"
             android:exported="false" />
@@ -43,7 +50,7 @@
             android:name=".ui.water.Water"
             android:exported="false" />
         <activity
-            android:name=".FoodRecipe"
+            android:name=".ui.food.FoodRecipe"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

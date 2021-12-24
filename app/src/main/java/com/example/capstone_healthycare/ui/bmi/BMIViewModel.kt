@@ -1,4 +1,4 @@
-package com.example.capstone_healthycare.viewmodel
+package com.example.capstone_healthycare.ui.bmi
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

@@ -10,7 +10,6 @@ import android.widget.SeekBar
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.ViewModelProvider
-import com.example.capstone_healthycare.viewmodel.BMIViewModel
 import com.example.capstone_healthycare.model.RecordsBMI
 import com.example.capstone_healthycare.databinding.ActivityCalculatorBmiBinding
 

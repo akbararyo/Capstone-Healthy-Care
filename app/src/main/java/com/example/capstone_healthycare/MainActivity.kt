@@ -7,6 +7,7 @@ import android.view.View
 import androidx.cardview.widget.CardView
 import com.example.capstone_healthycare.databinding.ActivityMainBinding
 import com.example.capstone_healthycare.ui.bmi.BMI
+import com.example.capstone_healthycare.ui.food.FoodRecipe
 import com.example.capstone_healthycare.ui.sleep.Sleep
 import com.example.capstone_healthycare.ui.water.Water
 

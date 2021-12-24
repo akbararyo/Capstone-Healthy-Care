@@ -51,4 +51,13 @@
         <item name="errorTextAppearance">@style/ErrorText</item>
         <item name="android:background">@drawable/textinput_bg</item>
     </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 </resources>

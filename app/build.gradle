@@ -23,6 +23,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            buildConfigField "String", "BASE_API", "\"https://www.themealdb.com/api/json/v1/1/\""
+        }
+        release {
+            buildConfigField "String", "BASE_API", "\"https://www.themealdb.com/api/json/v1/1/\""
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -91,4 +97,17 @@ dependencies {
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
     implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:2.1.2'
+
+    //food
+    //networking
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    //shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0@aar'
+    //glide for img
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    //swipe refresh
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    //justified text
+    implementation 'com.uncopt:android.justified:1.0'
+
 }

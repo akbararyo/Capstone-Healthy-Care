@@ -96,10 +96,11 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="130dp">
+
                     <TextView
-                        android:text="Food Recipe"
                         style="@style/title_menu"
-                        android:textColor="#1FB706"/>
+                        android:text="Food Recipe"
+                        android:textColor="#1FB706" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -122,23 +123,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <TextView
-                        android:id="@+id/water_amount"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="0"
-                        android:textSize="36sp"
-                        app:layout_constraintStart_toStartOf="@+id/water"
-                        app:layout_constraintTop_toBottomOf="@+id/water" />
-
-                    <TextView
-                        android:id="@+id/textView"
-                        android:text="glasses"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/water_amount"
-                        app:layout_constraintStart_toEndOf="@+id/water_amount" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
